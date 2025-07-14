@@ -1,0 +1,38 @@
+/* Custom styles for Registration component that cannot be achieved with Bootstrap utilities alone */
+
+/* Global background gradient for the page section */
+.registration-page-bg {
+  min-height: 100vh; /* Ensure it covers full viewport height */
+  background: linear-gradient(135deg, #e0e7fa 0%, #d8e2ff 100%); /* Light blue/purple gradient */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+/* Custom styling for the card container */
+.registration-card {
+  max-width: 550px; /* Adjust based on desired width */
+  width: 100%;
+  border-radius: 15px !important; /* Override Bootstrap's default border-radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important; /* Custom shadow */
+}
+
+/* Custom gradient for the Sign Up button */
+.custom-gradient-btn {
+  background: linear-gradient(to right, #8e2de2, #4a00e0); /* Purple to dark purple gradient */
+  border: none; /* Remove default Bootstrap border */
+  transition: all 0.3s ease;
+}
+
+.custom-gradient-btn:hover {
+  background: linear-gradient(to right, #4a00e0, #8e2de2); /* Reverse gradient on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); /* Stronger shadow on hover */
+}
+
+
+.registration-page-bg {
+  background-image: url('/src/assets/Travel4.png'); /* from public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}

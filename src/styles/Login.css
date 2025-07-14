@@ -1,0 +1,30 @@
+/* src/styles/Login.css */
+.login-page {
+  background: linear-gradient(to bottom right, #dbeafe, #c7d2fe);
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.212);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+}
+
+.gradient-btn {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  font-weight: 600;
+}
+
+.text-purple {
+  color: #764ba2;
+}
+
+
+.login-page {
+  background-image: url('/src/assets/Travel4.png'); /* Travel-themed image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
